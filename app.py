@@ -1,5 +1,11 @@
 import urllib.parse
 import streamlit as st
+import streamlit as st
+
+# Garante que o layout se ajuste perfeitamente em telas de celulares
+st.set_page_config(
+    page_title="Cardápio Digital", page_icon="🍔", layout="centered"
+)
 
 st.set_page_config(page_title="Cardápio Digital", page_icon="🍔", layout="centered")
 
