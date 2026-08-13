@@ -1,11 +1,3 @@
-import streamlit as st
-
-st.set_page_config(page_title="Aviso", page_icon="⚠️")
-
-st.error("⚠️ Sistema Temporariamente Indisponível")
-st.write(
-    "Este cardápio encontra-se suspenso. Entre em contato com o administrador para regularizar o acesso."
-)
 import urllib.parse
 import streamlit as st
 
