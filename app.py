@@ -10,7 +10,7 @@ MENU = [
     {"id": 1, "nome": "X-Burger", "desc": "Pao e hamburguer 180g", "preco": 25.0},
     {"id": 2, "nome": "X-Salada", "desc": "Pao, burguer e salada", "preco": 22.0},
     {"id": 3, "nome": "Batata Frita", "desc": "Porcao de 200g", "preco": 12.0},
-    {"id": 4, "nome": "Refrigerante", "desc": "350ml gelado", "preco": 6.0}
+    {"id": 4, "nome": "Refrigerante", "desc": "350ml gelado", "preco": 3.0}
 ]
 
 if 'carrinho' not in st.session_state:
